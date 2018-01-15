@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/jorbuedo/DSD/vgaController/VGA_Display.ncd
+OUTFILE=/home/jorbuedo/DSD/vgaController/VGA_Display.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=/home/jorbuedo/DSD/vgaController
+LICENSE=WebPack
+USER_INFO=210726975_0_0_711

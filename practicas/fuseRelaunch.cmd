@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/jorbuedo/DSD/practicas/FullAdderNbits_tb_isim_beh.exe" -prj "/home/jorbuedo/DSD/practicas/FullAdderNbits_tb_beh.prj" "work.FullAdderNbits_tb" -v "1" 

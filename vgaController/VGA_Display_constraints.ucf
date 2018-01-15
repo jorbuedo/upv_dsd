@@ -1,0 +1,60 @@
+# Inputs
+NET "Clk" LOC="V10";
+NET "Rst" LOC="C9";
+
+#NET "Data<0>"  	LOC = "R13"
+#NET "Data<1>"  	LOC = "T14"
+#NET "Data<2>"  	LOC = "V14"
+#NET "Data<3>"  	LOC = "U5" 
+#NET "Data<4>"  	LOC = "V5" 
+#NET "Data<5>"  	LOC = "R3" 
+#NET "Data<6>"  	LOC = "T3" 
+#NET "Data<7>"  	LOC = "R5" 
+#NET "Data<8>"  	LOC = "N5" 
+#NET "Data<9>"  	LOC = "P6" 
+#NET "Data<10>" 	LOC = "P12"
+#NET "Data<11>" 	LOC = "U13"
+#NET "Data<12>" 	LOC = "V13"
+#NET "Data<13>" 	LOC = "U10"
+#NET "Data<14>" 	LOC = "R8" 
+#NET "Data<15>" 	LOC = "T8" 
+
+# Outputs
+NET "Red<0>" LOC="U7";
+NET "Red<1>" LOC="V7";
+NET "Red<2>" LOC="N7";
+NET "Green<0>" LOC="P8";
+NET "Green<1>" LOC="T6";
+NET "Green<2>" LOC="V6";
+NET "Blue<0>" LOC="R7";
+NET "Blue<1>" LOC="T7";
+NET "Hsync" LOC="N6";
+NET "Vsync" LOC="P7";
+
+#NET "Addr<0>" 	LOC = "K18"
+#NET "Addr<1>" 	LOC = "K17"
+#NET "Addr<2>" 	LOC = "J18"
+#NET "Addr<3>" 	LOC = "J16"
+#NET "Addr<4>" 	LOC = "G18"
+#NET "Addr<5>" 	LOC = "G16"
+#NET "Addr<6>" 	LOC = "H16"
+#NET "Addr<7>" 	LOC = "H15"
+#NET "Addr<8>" 	LOC = "H14"
+#NET "Addr<9>"	LOC = "H13"
+#NET "Addr<10>"	LOC = "F18"
+#NET "Addr<11>"	LOC = "F17"
+#NET "Addr<12>"	LOC = "K13"
+#NET "Addr<13>"	LOC = "K12"
+#NET "Addr<14>"	LOC = "E18"
+#NET "Addr<15>"	LOC = "E16"
+#NET "Addr<16>"	LOC = "G13"
+#NET "Addr<17>"	LOC = "H12"
+#NET "Addr<18>"	LOC = "D18"
+#NET "Addr<19>"	LOC = "D17"
+#NET "Addr<20>"	LOC = "G14"
+#NET "Addr<21>"	LOC = "F14"
+#NET "Addr<22>"	LOC = "C18"
+#NET "Addr<23>"	LOC = "C17"
+#NET "Addr<24>"	LOC = "F16"
+#NET "Addr<25>"	LOC = "F15"
+

@@ -1,0 +1,2 @@
+vhdl work "WaterBombs.vhd"
+vhdl work "WaterBombs_tb.vhd"

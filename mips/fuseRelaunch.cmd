@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/jorbuedo/DSD/mips/MulticycleMIPS_tb_isim_beh.exe" -prj "/home/jorbuedo/DSD/mips/MulticycleMIPS_tb_beh.prj" "work.MulticycleMIPS_tb" 

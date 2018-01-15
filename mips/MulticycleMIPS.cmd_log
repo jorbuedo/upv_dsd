@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "/home/jorbuedo/DSD/mips/MulticycleMIPS.xst" -ofn "/home/jorbuedo/DSD/mips/MulticycleMIPS.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc MulticycleMIPS_restrictions.ucf -p xc6slx16-csg324-3 MulticycleMIPS.ngc MulticycleMIPS.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MulticycleMIPS_map.ncd MulticycleMIPS.ngd MulticycleMIPS.pcf 
+par -w -intstyle ise -ol high -mt off MulticycleMIPS_map.ncd MulticycleMIPS.ncd MulticycleMIPS.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MulticycleMIPS.twx MulticycleMIPS.ncd -o MulticycleMIPS.twr MulticycleMIPS.pcf -ucf MulticycleMIPS_restrictions.ucf 
+bitgen -intstyle ise -f MulticycleMIPS.ut MulticycleMIPS.ncd 

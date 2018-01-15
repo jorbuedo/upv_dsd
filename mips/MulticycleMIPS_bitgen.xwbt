@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/jorbuedo/DSD/mips/MulticycleMIPS.ncd
+OUTFILE=/home/jorbuedo/DSD/mips/MulticycleMIPS.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=/home/jorbuedo/DSD/mips
+LICENSE=WebPack
+USER_INFO=210726975_0_0_711

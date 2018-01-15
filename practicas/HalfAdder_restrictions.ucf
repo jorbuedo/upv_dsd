@@ -1,0 +1,6 @@
+# Inputs
+NET "a_i" LOC="T10";
+NET "b_i" LOC="T9";
+# Outputs
+NET "s_o" LOC="U16";
+NET "c_o" LOC="V16";

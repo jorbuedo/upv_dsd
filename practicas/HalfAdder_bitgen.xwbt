@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/jorbuedo/DSD/practicas/HalfAdder.ncd
+OUTFILE=/home/jorbuedo/DSD/practicas/HalfAdder.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=/home/jorbuedo/DSD/practicas
+LICENSE=WebPack
+USER_INFO=210726975_0_0_711

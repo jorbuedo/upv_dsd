@@ -1,0 +1,2 @@
+vhdtdtfi -lib work FFD.vhd -lib work ShiftRegisterNBits.vhd -prj tema2 -o ShiftRegisterNBits.spl -module ShiftRegisterNBits -template /opt/Xilinx/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 ShiftRegisterNBits.spl /home/jorbuedo/DSD/tema2/ShiftRegisterNBits.sym 

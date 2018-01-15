@@ -1,0 +1,29 @@
+Command line:
+   WaterBombs_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50335
+
+Thu Mar 14 01:17:23 2013
+
+
+ Elaboration Time: 0.02 sec
+
+ Current Memory Usage: 181.936 Meg
+
+ Total Signals          : 10
+ Total Nets             : 8
+ Total Signal Drivers   : 6
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 4
+ Total Traceable Variables  : 9
+ Total Scalar Nets and Variables : 369
+Total Line Count : 66
+
+ Total Simulation Time: 0.02 sec
+
+ Current Memory Usage: 257.438 Meg
+
+Thu Mar 14 01:17:55 2013
+

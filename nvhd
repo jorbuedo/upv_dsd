@@ -1,0 +1,56 @@
+#!/bin/sh
+ENTITY=$1
+ARCH=$2
+DATE=$(date)
+tempfile=$(mktemp)
+if [ -z "$ENTITY" ]; then
+   ENTITY='newentity'
+fi
+
+if [ -z "$ARCH" ]; then
+   ARCH='Behavioral'
+fi
+
+FILE=$ENTITY'.vhd'
+touch $FILE
+
+echo "----------------------------------------------------------------------------------
+-- Company: 
+-- Engineer:		Jordi Bueno - jorbuedo@me.com
+-- 
+-- Create Date:		$DATE 
+-- Design Name: 
+-- Module Name:		$ENTITY - $ARCH
+-- Project Name: 
+-- Target Devices: 
+-- Tool versions: 
+-- Description: 
+--
+-- Dependencies: 
+--
+-- Revision: 
+-- Revision 0.01 - File Created
+-- Additional Comments: 
+--
+----------------------------------------------------------------------------------
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+--use IEEE.NUMERIC_STD.ALL;
+
+entity $ENTITY is
+	Port (
+		a	: in	STD_LOGIC;
+		b	: in	STD_LOGIC;
+		c	: out	STD_LOGIC
+	);
+end $ENTITY;
+
+architecture $ARCH of $ENTITY is
+
+begin
+
+end $ARCH;
+" > $tempfile
+cat $FILE >> $tempfile
+cat $tempfile >> $FILE
+rm -f $tempfile

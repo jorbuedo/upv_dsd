@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=/home/jorbuedo/DSD/practicas/impact.xsl
+OUTFILE=/home/jorbuedo/DSD/practicas/impact.xsl
+FAMILY=None
+PART=None
+WORKINGDIR=/home/jorbuedo/DSD/practicas
+LICENSE=iMPACT
+USER_INFO=iMPACT

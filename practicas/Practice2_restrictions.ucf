@@ -1,0 +1,23 @@
+# Inputs
+NET "clk" LOC="V10";
+NET "digit<7>" LOC="T5";
+NET "digit<6>" LOC="V8";
+NET "digit<5>" LOC="U8";
+NET "digit<4>" LOC="N8";
+NET "digit<3>" LOC="M8";
+NET "digit<2>" LOC="V9";
+NET "digit<1>" LOC="T9";
+NET "digit<0>" LOC="T10";
+# Outputs
+NET "active<3>" LOC="N16";
+NET "active<2>" LOC="N15";
+NET "active<1>" LOC="P18";
+NET "active<0>" LOC="P17";
+NET "segment<7>" LOC="T17";
+NET "segment<6>" LOC="T18";
+NET "segment<5>" LOC="U17";
+NET "segment<4>" LOC="U18";
+NET "segment<3>" LOC="M14";
+NET "segment<2>" LOC="N14";
+NET "segment<1>" LOC="L14";
+NET "segment<0>" LOC="M13";

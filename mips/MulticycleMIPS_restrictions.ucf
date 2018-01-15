@@ -1,0 +1,24 @@
+# Inputs
+NET "Clk" LOC="V10";
+NET "Rst" LOC="C9";
+# Outputs
+NET "Active<0>" LOC="N16";
+NET "Active<1>" LOC="N15";
+NET "Active<2>" LOC="P18";
+NET "Active<3>" LOC="P17";
+NET "Segment<7>" LOC="T17";
+NET "Segment<6>" LOC="T18";
+NET "Segment<5>" LOC="U17";
+NET "Segment<4>" LOC="U18";
+NET "Segment<3>" LOC="M14";
+NET "Segment<2>" LOC="N14";
+NET "Segment<1>" LOC="L14";
+NET "Segment<0>" LOC="M13";
+NET "Leds<7>" LOC="T11";
+NET "Leds<6>" LOC="R11";
+NET "Leds<5>" LOC="N11";
+NET "Leds<4>" LOC="M11";
+NET "Leds<3>" LOC="V15";
+NET "Leds<2>" LOC="U15";
+NET "Leds<1>" LOC="V16";
+NET "Leds<0>" LOC="U16";

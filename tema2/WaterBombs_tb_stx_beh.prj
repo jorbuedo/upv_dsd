@@ -1,0 +1,2 @@
+vhdl isim_temp "WaterBombs.vhd"
+vhdl isim_temp "WaterBombs_tb.vhd"

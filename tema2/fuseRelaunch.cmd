@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/jorbuedo/DSD/tema2/WaterBombs_tb_isim_beh.exe" -prj "/home/jorbuedo/DSD/tema2/WaterBombs_tb_beh.prj" "work.WaterBombs_tb" 

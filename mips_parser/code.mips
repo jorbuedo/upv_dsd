@@ -1,0 +1,7 @@
+start:
+addi $1, $0, 1
+addi $3, $0, 255
+loop:
+sb $2, 253($0)
+add $2, $2, $1
+j loop

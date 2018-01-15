@@ -1,0 +1,3 @@
+work	"ClockDivider.vhd"
+work	"VGA_Controller.vhd"
+work	"VGA_Display.vhd"

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/jorbuedo/DSD/mips/Memory.vhd" Line 337: <arg fmt="%s" index="1">memdata_s</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/jorbuedo/DSD/mips/Registers.vhd" Line 45: <arg fmt="%s" index="1">registers_s</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"/home/jorbuedo/DSD/mips/Registers.vhd" Line 46: <arg fmt="%s" index="1">registers_s</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="new" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Instruction_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">InstructionRegister_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Instruction_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">InstructionRegister_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Instruction_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">InstructionRegister_0</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="new" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Segment</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">InstructionRegister_0/Instruction_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MulticycleMIPS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">InstructionRegister_0/Instruction_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MulticycleMIPS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">InstructionRegister_0/Instruction_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MulticycleMIPS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">InstructionRegister_0/NextInstruction_s_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MulticycleMIPS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">InstructionRegister_0/NextInstruction_s_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MulticycleMIPS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">InstructionRegister_0/NextInstruction_s_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MulticycleMIPS</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">ClockDivider_CPU/count_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MulticycleMIPS</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ClockDivider_Memory/count_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">ClockDivider_CPU/count_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MulticycleMIPS</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ClockDivider_Memory/count_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">ClockDivider_CPU/count_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MulticycleMIPS</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ClockDivider_Memory/count_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">ClockDivider_CPU/count_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MulticycleMIPS</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ClockDivider_Memory/count_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">ClockDivider_CPU/count_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MulticycleMIPS</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ClockDivider_Memory/count_4&gt; </arg>
+</msg>
+
+</messages>
+

@@ -1,0 +1,68 @@
+addi $1, $0, 9
+sb $1, 253($0)
+start:
+j min
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+addi $1, $0, 5
+sb $1, 253($0)
+nop
+nop
+min:
+beq $0, $0, mid
+nop
+nop
+nop
+j fin
+addi $1, $0, 101
+sb $1, 253($0)
+nop
+nop
+nop
+nop
+nop
+nop
+mid:
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+addi $1, $0, 101
+sb $1, 253($0)
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+addi $1, $0, 101
+sb $1, 253($0)
+nop
+nop
+nop
+fin:
+addi $1, $0, 55
+sb $1, 253($0)
